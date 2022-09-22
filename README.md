@@ -1,2 +1,1 @@
-# minha_nota_2t
-Aluna: Rayssa Kamille - Nr32 - 1C
+# primeiroc_2t

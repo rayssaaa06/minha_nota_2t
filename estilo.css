@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+}
+.caixa1 {
+   position: relative;
+   background: rgb(29, 4, 121);
+   width: 200px;
+   height: 200px;
+   color: #14d8df;
+   left: 50%;
+}
+.menuPrincipal {
+  position: absolute;
+  background: #19fafa;
+  width: 100%;
+  height: 45px;
+  top: 0pt;
+  left: 0;
+}
+nav ul {  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color:rgb(230, 43, 10);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+li a:hover{
+  background:#4BA8FA;
+  color: black;
+} 
+.imgEstudo {
+    position: absolute;
+    width: 90%;
+    height: 120px;
+    background: #ade0e2;
+    top: 45px;
+    left: 0;
+    margin: 20px;
+    border-color: rgb(16, 190, 16);
+    border-width: 20px;
+    border-style: solid;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+#aguia {
+   width: 20%;
+}
+.rodape {
+   position: absolute;
+   bottom: -90px;
+   width: 100%;
+   height: 50px;
+   background: #0d7dfd;
+   color:#030303;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   font-size: 26px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.conteudo {
+  position: absolute;
+  top: 45px;
+}
+#outerbanks {
+  width: 98%;
+  position:absolute;
+  height: 500px;
+  top: 150px;
+  
+}
